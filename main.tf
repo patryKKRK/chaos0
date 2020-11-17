@@ -12,5 +12,5 @@ provider "aws" {
 }
 
 module "networking" {
-  source = "github.com/patryKKRK/chaos1"
+  source = "git@github.com:patryKKRK/chaos1.git?ref=1.0.0"
 }
